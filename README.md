@@ -1,1 +1,2 @@
 # Project-33-modified
+This project takes the X and Y inputs from a touchscreen, divides the touchscreen into four quadrants, and writes an LED  HIGH if the given quadrant is being touched (i.e., quadrant 1 touched turns on LED 1). Multiple inputs cannot be taken simultaneously (if quadrants 1 and 2 are being touched, nothing will happen). It then delays by one second (if a touch is detected) and writes the HIGH LED to LOW. The program then reads the input from the touchscreen again and continues in this way indefinitely. 
